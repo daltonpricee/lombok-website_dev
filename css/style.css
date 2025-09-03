@@ -76,7 +76,7 @@ body {
   border-radius: 8px;
 }
 
-/* Page load fade-in animation */
+/* Page load fade-in animation
 body {
   opacity: 0;
   transition: opacity 1s ease-in-out;
@@ -84,5 +84,17 @@ body {
 
 body.loaded {
   opacity: 1;
+} */
+
+/* Page load scale + fade-in animation */
+.page-content {
+  transform: scale(0.9);    /* start slightly smaller */
+  opacity: 0;               /* start invisible */
+  transition: transform 1s ease, opacity 1s ease;  /* smooth transition */
+}
+
+body.loaded .page-content {
+  transform: scale(1);      /* scale up to normal size */
+  opacity: 1;               /* fade in */
 }
 
