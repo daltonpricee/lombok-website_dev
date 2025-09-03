@@ -5,16 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Admissions - Lombok Global School</title>
   <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .page-content { display:flex; gap:20px; padding:40px; align-items:flex-start; }
+    .page-content .text-box { flex:1; text-align:left; }
+    .right-image-container { flex:1; display:flex; justify-content:flex-end; }
+    .right-image-container img { width:100%; max-width:500px; height:auto; border-radius:8px; }
+  </style>
 </head>
 <body>
-  <!-- Hero Image -->
   <div class="hero-container">
-    <img src="assets/images/aerial-view-drone-flying-drone-footage-island-3838555.jpeg" 
-         alt="Aerial view of Serangan Bay" 
-         class="hero-img">
+    <img src="assets/images/aerial-view-drone-flying-drone-footage-island-3838555.jpeg" alt="Aerial view of Serangan Bay" class="hero-img">
   </div>
 
-  <!-- Banner / Navigation -->
   <header class="banner">
     <div class="logo">Lombok Global School</div>
     <nav class="nav-links">
@@ -27,7 +29,7 @@
     </nav>
   </header>
 
-  <div class="container">
+  <div class="page-content">
     <div class="text-box">
       <h2>Contact & Enrollment</h2>
       <p>If you have any questions or would like more information, please reach out to us:</p>
@@ -56,6 +58,9 @@
 
         <button type="submit">Submit</button>
       </form>
+    </div>
+    <div class="right-image-container">
+      <img src="assets/images/aerial-view-drone-flying-drone-footage-island-3838555.jpeg" alt="Campus view">
     </div>
   </div>
 

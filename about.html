@@ -5,16 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About - Lombok Global School</title>
   <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .page-content { display:flex; gap:20px; padding:40px; align-items:flex-start; }
+    .page-content .text-box { flex:1; text-align:left; }
+    .right-image-container { flex:1; display:flex; justify-content:flex-end; }
+    .right-image-container img { width:100%; max-width:500px; height:auto; border-radius:8px; }
+  </style>
 </head>
 <body>
-  <!-- Hero Image -->
   <div class="hero-container">
-    <img src="assets/images/aerial-view-drone-flying-drone-footage-island-3838555.jpeg" 
-         alt="Aerial view of Serangan Bay" 
-         class="hero-img">
+    <img src="assets/images/aerial-view-drone-flying-drone-footage-island-3838555.jpeg" alt="Aerial view of Serangan Bay" class="hero-img">
   </div>
 
-  <!-- Banner / Navigation -->
   <header class="banner">
     <div class="logo">Lombok Global School</div>
     <nav class="nav-links">
@@ -27,7 +29,7 @@
     </nav>
   </header>
 
-  <div class="container">
+  <div class="page-content">
     <div class="text-box">
       <h2>Who We Are</h2>
       <p>Lombok Global School is founded to meet the clear demand for quality international education in South Lombok. Families here have long recognized the need for a school that provides both global standards and a supportive community environment.</p>
@@ -40,6 +42,9 @@
 
       <h2>Our Values</h2>
       <p>Resilience, Curiosity, Excellence, Service, and Community.</p>
+    </div>
+    <div class="right-image-container">
+      <img src="assets/images/aerial-view-drone-flying-drone-footage-island-3838555.jpeg" alt="Campus view">
     </div>
   </div>
 
