@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact - Lombok Global School</title>
+  <title>Admissions - Lombok Global School</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -29,13 +29,33 @@
 
   <div class="container">
     <div class="text-box">
-      <h2>Contact Us</h2>
+      <h2>Contact & Enrollment</h2>
       <p>If you have any questions or would like more information, please reach out to us:</p>
       <ul>
         <li>Email: info@lombokglobalschool.id</li>
         <li>Phone: +62 123 4567 890</li>
         <li>Address: Serangan Bay, South Lombok, Indonesia</li>
       </ul>
+
+      <h2>Enroll Your Child</h2>
+      <form id="enrollForm">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="grade">Grade to Enroll:</label><br>
+        <input type="text" id="grade" name="grade" required><br><br>
+
+        <button type="submit">Submit</button>
+      </form>
     </div>
   </div>
 
