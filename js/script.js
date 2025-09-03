@@ -18,3 +18,8 @@ if (enrollForm) {
     enrollForm.reset(); // Clear the form
   });
 }
+// Fade-in animation on page load
+window.addEventListener('load', () => {
+  document.body.classList.add('loaded');
+});
+
