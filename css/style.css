@@ -11,7 +11,7 @@ body {
 /* Hero Image (top) */
 .hero-container {
   width: 100%;
-  height: 20vh; /* takes up 20% of viewport height */
+  height: 30vh; /* takes up 20% of viewport height */
   overflow: hidden; /* hides anything that overflows */
 }
 
